@@ -10,4 +10,5 @@ The course covers testing, configuration and environment management, the use of 
 This repository contains my solutions for the course.
 
 ## Course Content
+- [Part 0 - Fundamentals of Web App](./part0)
 
