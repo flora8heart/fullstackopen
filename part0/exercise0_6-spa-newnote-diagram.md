@@ -4,7 +4,7 @@ sequenceDiagram
 participant browser
 participant server
 
-Note right of browser: A new note is submitted triggering the browser <br> to execute JavaScript fetched previously to <br>rerenders the note list with the new note on the page
+Note right of browser: A new note is submitted triggering the browser <br> to execute the JavaScript code fetched previously to <br>rerenders the note list with the new note on the page
 
 browser-->>+server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
 
