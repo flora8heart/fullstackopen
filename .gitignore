@@ -1,2 +1,5 @@
 # Igrnoe DS_Store file
 .DS_Store
+
+# Ignore node_modules
+/node_modules/
