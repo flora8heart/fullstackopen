@@ -2,7 +2,7 @@ const Header = (props) => {
   console.log(props);
   return (
     <>
-      <h1>{props.course}</h1>
+      <h1>{props.course.name}</h1>
     </>
   );
 };
@@ -43,7 +43,9 @@ const Total = (props) => {
 };
 
 const App = () => {
-  const course = "Half Stack application development";
+  const course = {
+    name: "Half Stack application development",
+  };
   const parts = [
     {
       name: "Fundamentals of React",
